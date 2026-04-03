@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="theme-color" content="#0E0E0E">
+  <title>Cardiomed — Centro Médico Integral | Campana, Buenos Aires</title>
+  <meta name="description" content="Centro médico en Campana. Hospital de Día con +15 especialistas. Ecocardiograma, ergometría, holter y más. Turnos online 24hs.">
+  <meta name="keywords" content="cardiomed campana, cardiólogo campana, ecocardiograma campana, hospital día campana">
+  <meta property="og:title" content="Cardiomed — Centro Médico Integral">
+  <meta property="og:description" content="Hospital de Día en Campana. +15 especialistas, tecnología avanzada, turnos online.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Design System -->
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/animations.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+
+  <!-- React -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- 1. Data -->
+  <script type="text/babel" src="js/data/nav.js"></script>
+  <script type="text/babel" src="js/data/professionals.js"></script>
+  <script type="text/babel" src="js/data/studies.js"></script>
+  <script type="text/babel" src="js/data/coverages.js"></script>
+  <script type="text/babel" src="js/data/circuits.js"></script>
+
+  <!-- 2. Utilities & Hooks -->
+  <script type="text/babel" src="js/utils/icons.js"></script>
+  <script type="text/babel" src="js/hooks/useScroll.js"></script>
+  <script type="text/babel" src="js/hooks/useReveal.js"></script>
+
+  <!-- 3. Shared Components -->
+  <script type="text/babel" src="js/components/Atoms.js"></script>
+  <script type="text/babel" src="js/components/Navbar.js"></script>
+  <script type="text/babel" src="js/components/WAFloat.js"></script>
+  <script type="text/babel" src="js/components/Footer.js"></script>
+
+  <!-- 4. Pages -->
+  <script type="text/babel" src="js/pages/PageInicio.js"></script>
+  <script type="text/babel" src="js/pages/PageCircuitos.js"></script>
+  <script type="text/babel" src="js/pages/PageEstudios.js"></script>
+  <script type="text/babel" src="js/pages/PageProfesionales.js"></script>
+  <script type="text/babel" src="js/pages/PageCoberturas.js"></script>
+  <script type="text/babel" src="js/pages/PageUbicacion.js"></script>
+  <script type="text/babel" src="js/pages/PageTurnos.js"></script>
+
+  <!-- 5. App entry -->
+  <script type="text/babel" src="js/App.js"></script>
+</body>
+</html>

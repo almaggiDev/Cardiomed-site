@@ -1,0 +1,55 @@
+/* ============================================================
+   CARDIOMED — DESIGN TOKENS
+   Direction: Swiss-editorial × Tokyo-clinical brutalism
+   Palette: bone white / near-black / blood red accent
+   Type: Instrument Serif (display) + IBM Plex Mono (data)
+   ============================================================ */
+:root {
+
+  /* ── Palette ──────────────────────────────────────────── */
+  --bone:       #F9F6F1;   /* page background */
+  --bone2:      #F0EDE7;   /* alternate section */
+  --bone3:      #E6E1D9;   /* border, dividers */
+  --paper:      #FDFCFA;   /* card surfaces */
+  --ink:        #0E0E0E;   /* primary text, black */
+  --ink2:       #1A1A1A;   /* headings */
+  --mid:        #4A4A4A;   /* body text */
+  --muted:      #888880;   /* captions, metadata */
+  --ghost:      #BEBAB2;   /* placeholder, disabled */
+  --red:        #C2463A;   /* ONE accent — blood red */
+  --red2:       #A33930;   /* red hover */
+  --white:      #FFFFFF;
+  --wa:         #25D366;
+
+  /* ── Type ─────────────────────────────────────────────── */
+  --serif:  'Instrument Serif', Georgia, serif;
+  --mono:   'IBM Plex Mono', 'Courier New', monospace;
+  --sans:   'Instrument Sans', system-ui, sans-serif;
+
+  /* ── Scale ────────────────────────────────────────────── */
+  --t-xs:    0.65rem;    /* 10.4px */
+  --t-sm:    0.78rem;    /* 12.5px */
+  --t-base:  0.92rem;    /* 14.7px */
+  --t-md:    1.05rem;    /* 16.8px */
+  --t-lg:    clamp(1.3rem, 2.5vw, 1.7rem);
+  --t-xl:    clamp(1.8rem, 4vw,   3rem);
+  --t-2xl:   clamp(2.8rem, 6vw,   5rem);
+  --t-hero:  clamp(4rem,   9vw,   8.5rem);
+
+  /* ── Spacing ──────────────────────────────────────────── */
+  --s4:   4px;   --s8:  8px;  --s12: 12px; --s16: 16px;
+  --s20: 20px;  --s24: 24px; --s32: 32px; --s40: 40px;
+  --s48: 48px;  --s56: 56px; --s64: 64px; --s80: 80px;
+  --s96: 96px;  --s120:120px;
+
+  /* ── Layout ───────────────────────────────────────────── */
+  --max:    1280px;
+  --nav-h:  60px;
+  --pad:    clamp(20px, 4vw, 48px);
+
+  /* ── Motion ───────────────────────────────────────────── */
+  --ease:   cubic-bezier(0.16, 1, 0.3, 1);
+  --fast:   150ms;
+  --base:   240ms;
+  --slow:   480ms;
+}

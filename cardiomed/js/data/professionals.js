@@ -1,0 +1,20 @@
+// js/data/professionals.js
+const PROFESIONALES = [
+  { init: 'DB',  name: 'Dr. Diego Bertolino',         spec: 'Cardiología Adultos',            cat: 'cardio'  },
+  { init: 'GQ',  name: 'Dr. Gabriel Quagliano',       spec: 'Cardiología Adultos',            cat: 'cardio'  },
+  { init: 'MA',  name: 'Dr. Maximiliano Ayerbe',      spec: 'Cardiología Adultos',            cat: 'cardio'  },
+  { init: 'BS',  name: 'Dra. Belén Sponton',          spec: 'Cardiología Adultos',            cat: 'cardio'  },
+  { init: 'CC',  name: 'Dr. Christian Cardozo',       spec: 'Cardiología Adultos',            cat: 'cardio'  },
+  { init: 'DS',  name: 'Dra. Daniela Sosa',           spec: 'Cardiología Infantil',           cat: 'cardio'  },
+  { init: 'SC',  name: 'Dra. Silvina Cymet',          spec: 'Clínica Médica',                 cat: 'clinica' },
+  { init: 'HL',  name: 'Dr. Hugo Longás',             spec: 'Otorrinolaringología',           cat: 'otros'   },
+  { init: 'TR',  name: 'Dra. Teresita Rosenbaum',     spec: 'Neumonología',                   cat: 'otros'   },
+  { init: 'NG',  name: 'Dra. Noelia Grana',           spec: 'Dolor · Medicina Regenerativa',  cat: 'otros'   },
+  { init: 'PC',  name: 'Dr. Pablo Carras',            spec: 'Diabetología',                   cat: 'otros'   },
+  { init: 'LV',  name: 'Lic. Lucía Vivanco',          spec: 'Nutrición · Bioimpedancia',      cat: 'otros'   },
+  { init: 'AG',  name: 'Lic. Adriana García',         spec: 'Nutrición',                      cat: 'otros'   },
+  { init: 'YA',  name: 'Lic. Yanina Alberti',         spec: 'Psicopedagogía · Cognitivo',     cat: 'otros'   },
+  { init: 'PM',  name: 'Dr. Paulo Marques Sanches',   spec: 'Traumatología · Neurocirugía',   cat: 'otros'   },
+  { init: 'JA',  name: 'Lic. Julia Acevedo',          spec: 'RPG · Kinesiología',             cat: 'otros'   },
+  { init: 'PC2', name: 'Dra. Paula Castro',           spec: 'Dermatología',                   cat: 'otros'   },
+];

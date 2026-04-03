@@ -1,0 +1,29 @@
+/* ── Base ────────────────────────────────────────────────── */
+body {
+  font-family: var(--sans);
+  color: var(--mid);
+  background: var(--bone);
+  overflow-x: hidden;
+}
+
+/* ── Type helpers ─────────────────────────────────────────*/
+.serif       { font-family: var(--serif); }
+.mono        { font-family: var(--mono); }
+.t-ink       { color: var(--ink2); }
+.t-muted     { color: var(--muted); }
+.t-red       { color: var(--red); }
+.t-white     { color: var(--white); }
+.t-ghost     { color: var(--ghost); }
+
+/* mono label — used for ALL metadata, numbers, timestamps */
+.label {
+  font-family: var(--mono);
+  font-size: var(--t-xs);
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  line-height: 1;
+}
+.label--red   { color: var(--red); }
+.label--white { color: rgba(255,255,255,0.45); }
+
+:focus-visible { outline: 1.5px solid var(--red); outline-offset: 3px; }
